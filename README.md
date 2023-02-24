@@ -1,4 +1,4 @@
-# List of Dataset Links for Capstone Projects
+# List of Dataset Links for Capstone Project Ideas
 
 The following list of links should serve as a great starting point for putting together problems and/or ideas for your Project 4:
 
