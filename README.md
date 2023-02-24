@@ -31,7 +31,7 @@ Many of the cooler Sports Play-by-Play date scraping packages are done in R (nfl
 ### NFL Data from nflfastR/nflverse
 The nflfastR package scrapes nfl data from several sources, and the play-by-play data is stored in several different formats at the following link: [nflverse Data](https://github.com/nflverse/nflverse-data/).  
 
-From there, you can click on the data you want. For play-by-play data, click on load_pbp tag in the table.  You'll see a repo of all play-by-play data for the NFL from 1999-Present.  If you wanted to access the 2022 play-by-play data with Python, you can run the following in your Jupyter Notebook.
+From there, you can click on the data you want. For play-by-play data, click on load_pbp tag in the Automation Status Table under "Last Updated".  You'll see a repo of all play-by-play data for the NFL from 1999-Present.  If you wanted to access the 2022 play-by-play data with Python, you can run the following in your Jupyter Notebook.
 
 ```python
 pbp = pd.read_parquet('https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2022.parquet', engine='auto')
